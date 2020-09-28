@@ -131,7 +131,7 @@ define([
                 $('<a>')
                 .attr('href', '#assignments')
                 .attr('data-toggle', 'tab')
-                .text('Assignments')
+                .text('Student')
                 .click(function (e) {
                     window.history.pushState(null, null, '#assignments');
                     course_list.load_list();

@@ -28,7 +28,7 @@
     <div class="row">
       <div class="col-md-2">
         <div class="page-header">
-          <h1>nbgrader</h1>
+          <img src="https://wp.cghnyc.com/media/nyu-w-_thumbnail_new-1.svg" alt="nyu logo" height="200" width="200"/>
         </div>
       </div>
       <div class="col-md-8">
@@ -41,7 +41,7 @@
       </div>
       <div class="col-md-2">
         <div class="pull-right jupyter-logo">
-          <img src="https://wp.cghnyc.com/media/nyu-w-_thumbnail_new-1.svg" alt="nyu logo" height="87" width="100"/>
+        &nbsp;
         </div>
       </div>
     </div>
@@ -49,9 +49,9 @@
       <div class="col-md-2">
         <ul class="nav nav-pills nav-stacked">
           {%- block sidebar -%}
-          <li role="presentation"><a href="{{ base_url }}/formgrader/manage_assignments">Manage Assignments</a></li>
+          <li role="presentation"><a href="{{ base_url }}/formgrader/manage_assignments">Assignments</a></li>
           <li role="presentation"><a href="{{ base_url }}/formgrader/gradebook">Gradebook</a></li>
-          <li role="presentation"><a href="{{ base_url }}/formgrader/manage_students">Manage Students</a></li>
+          <li role="presentation"><a href="{{ base_url }}/formgrader/manage_students">Roster</a></li>
           {%- endblock -%}
         </ul>
       </div>
