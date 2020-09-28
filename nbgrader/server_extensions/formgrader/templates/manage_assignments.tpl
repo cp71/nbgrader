@@ -13,9 +13,9 @@ Manage Assignments
 {%- endblock -%}
 
 {%- block sidebar -%}
-<li role="presentation" class="active"><a href="{{ base_url }}/formgrader/manage_assignments">Manage Assignments</a></li>
+<li role="presentation" class="active"><a href="{{ base_url }}/formgrader/manage_assignments">Automatic Grading</a></li>
 <li role="presentation"><a href="{{ base_url }}/formgrader/gradebook">Manual Grading</a></li>
-<li role="presentation"><a href="{{ base_url }}/formgrader/manage_students">Manage Students</a></li>
+<li role="presentation"><a href="{{ base_url }}/formgrader/manage_students">Roster</a></li>
 {%- endblock -%}
 
 {%- block breadcrumbs -%}
@@ -87,10 +87,10 @@ for instructions.
   <th class="text-center no-sort">Generate</th>
   <th class="text-center no-sort">Preview</th>
   <th class="text-center no-sort">Release</th>
-  <th class="text-center no-sort">Collect</th>
+  <th class="text-center no-sort">Collect / Backup</th>
   <th class="text-center"># Submissions</th>
-  <th class="text-center no-sort">Generate Feedback</th>
-  <th class="text-center no-sort">Release Feedback</th>
+  <th class="text-center no-sort">Feedback</th>
+  <th class="text-center no-sort">Gradescope</th>
 </tr>
 {%- endblock -%}
 
