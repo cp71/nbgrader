@@ -41,7 +41,7 @@
       </div>
       <div class="col-md-2">
         <div class="pull-right jupyter-logo">
-          <img src="nyu_logo.svg" alt="nyu logo" height="87" width="100"/>
+          <img src="https://wp.cghnyc.com/media/nyu-w-_thumbnail_new-1.svg" alt="nyu logo" height="87" width="100"/>
         </div>
       </div>
     </div>
