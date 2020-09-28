@@ -28,19 +28,7 @@
     <div class="row">
       <div class="col-md-2">
         <div class="page-header">
-          <img src="https://engineering.nyu.edu/sites/default/files/styles/square_large_default_1x/public/2020-02/nyu-logo-new_3.png?h=df091267&itok=Q6Y_6jNp" alt="nyu logo" height="200" width="200"/>
-        </div>
-      </div>
-      <div class="col-md-8">
-        <div class="page-header">
-          <h1>
-          Assignments
-          </h1>
-        </div>
-      </div>
-      <div class="col-md-2">
-        <div class="pull-right jupyter-logo">
-        &nbsp;
+          <img src="https://engineering.nyu.edu/sites/default/files/styles/square_large_default_1x/public/2020-02/nyu-logo-new_3.png?h=df091267&itok=Q6Y_6jNp" alt="nyu logo" height="150" width="150"/>
         </div>
       </div>
     </div>
