@@ -28,14 +28,13 @@
     <div class="row">
       <div class="col-md-2">
         <div class="page-header">
-          <img src="https://wp.cghnyc.com/media/nyu-w-_thumbnail_new-1.svg" alt="nyu logo" height="200" width="200"/>
+          <img src="https://wp.cghnyc.com/media/nyu-w-_thumbnail_new-1.svg" alt="nyu logo" height="300" width="200"/>
         </div>
       </div>
       <div class="col-md-8">
         <div class="page-header">
           <h1>
-          {%- block title -%}
-          {%- endblock -%}
+          Assignments
           </h1>
         </div>
       </div>
