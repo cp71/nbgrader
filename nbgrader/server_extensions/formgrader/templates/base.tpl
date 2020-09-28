@@ -28,7 +28,7 @@
     <div class="row">
       <div class="col-md-2">
         <div class="page-header">
-          <img src="https://engineering.nyu.edu/sites/default/files/styles/square_large_default_1x/public/2020-02/nyu-logo-new_3.png?h=df091267&itok=Q6Y_6jNp" alt="nyu logo" height="150" width="150"/>
+          <img src="https://engineering.nyu.edu/sites/default/files/styles/square_large_default_1x/public/2020-02/nyu-logo-new_3.png?h=df091267&itok=Q6Y_6jNp" alt="nyu logo" height="175" width="175" tabindex="1"/>
         </div>
       </div>
     </div>
@@ -44,8 +44,6 @@
       </div>
       <div class="col-md-10">
         {%- block body -%}
-        {%- block breadcrumbs -%}
-        {%- endblock -%}
         {%- block messages -%}
         {%- endblock -%}
         <table class="table table-hover">
