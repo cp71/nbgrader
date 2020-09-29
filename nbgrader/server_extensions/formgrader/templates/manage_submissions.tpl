@@ -83,7 +83,7 @@ nbgrader autograde "{{ assignment_id }}"</pre>
 <tr>
   <td colspan="11">
     <span class="glyphicon glyphicon-flash" aria-hidden="true"></span>
-    <a href="#" onClick="runBespokeScript();">Grade All...</a>
+    <a href="#" onClick="runBespokeScript();">Autograde All Submissions</a>
   </td>
 </tr>
 {%- endblock -%}

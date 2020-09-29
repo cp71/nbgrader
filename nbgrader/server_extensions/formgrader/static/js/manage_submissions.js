@@ -306,5 +306,5 @@ var runBespokeScript = function () {
         "success-modal",
         "Success",
         "Successfully Autograded All Assignments",
-        response["log"]);
+        "nbgrader autograde");
 }
