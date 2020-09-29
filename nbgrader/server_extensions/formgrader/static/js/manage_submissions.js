@@ -299,3 +299,12 @@ var views = [];
 $(window).load(function () {
     loadSubmissions();
 });
+
+
+var runBespokeScript = function () {
+    createLogModal(
+        "success-modal",
+        "Success",
+        "Successfully Autograded All Assignments",
+        response["log"]);
+}

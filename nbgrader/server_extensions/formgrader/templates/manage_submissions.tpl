@@ -13,9 +13,9 @@ Manage Submissions
 {%- endblock -%}
 
 {%- block sidebar -%}
-<li role="presentation" class="active"><a href="{{ base_url }}/formgrader/manage_assignments">Manage Assignments</a></li>
+<li role="presentation" class="active"><a href="{{ base_url }}/formgrader/manage_assignments">Automatic Grading</a></li>
 <li role="presentation"><a href="{{ base_url }}/formgrader/gradebook">Manual Grading</a></li>
-<li role="presentation"><a href="{{ base_url }}/formgrader/manage_students">Manage Students</a></li>
+<li role="presentation"><a href="{{ base_url }}/formgrader/manage_students">Roster</a></li>
 {%- endblock -%}
 
 {%- block breadcrumbs -%}
@@ -40,8 +40,7 @@ Manage Submissions
         <p>
           <b>Note:</b> Here you can autograde individual students' submissions by
           clicking on the autograde icons below. If you want to autograde
-          all submissions at once, you will need to do this via the
-          <a target="_blank" href="{{ base_url }}/terminals/1">command line</a>:
+          all submissions at once, then click the grade all button.
         </p>
         <p>
         <pre>
@@ -62,8 +61,8 @@ nbgrader autograde "{{ assignment_id }}"</pre>
   <th class="text-center">Status</th>
   <th class="text-center">Score</th>
   <th class="text-center no-sort">Autograde</th>
-  <th class="text-center no-sort">Generate Feedback</th>
-  <th class="text-center no-sort">Release Feedback</th>
+  <th class="text-center no-sort">Feedback</th>
+  <th class="text-center no-sort">Gradescope</th>
 </tr>
 {%- endblock -%}
 
@@ -77,5 +76,14 @@ nbgrader autograde "{{ assignment_id }}"</pre>
   <td></td>
   <td></td>
   <td></td>
+</tr>
+{%- endblock -%}
+
+{%- block table_footer -%}
+<tr>
+  <td colspan="11">
+    <span class="glyphicon glyphicon-flash" aria-hidden="true"></span>
+    <a href="#" onClick="runBespokeScript();">Grade All...</a>
+  </td>
 </tr>
 {%- endblock -%}
